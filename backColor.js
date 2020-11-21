@@ -8,5 +8,6 @@ let colorArray = ['#FFFF00',
                 
 function newColor () {
     let index = Math.floor(Math.random() * (colorArray.length));
-    document.getElementById("colorDisplay").innerHTML = colorArray[index];
+    
+    document.body.style.backgroundColor = colorArray[index];
 }
