@@ -1,0 +1,15 @@
+.button{
+    outline: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 27px;
+    font-family: "Montserat";
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
